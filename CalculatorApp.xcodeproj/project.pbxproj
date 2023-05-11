@@ -14,6 +14,7 @@
 		ED40ED692A0BC3EA005E2732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED682A0BC3EA005E2732 /* Assets.xcassets */; };
 		ED40ED6C2A0BC3EA005E2732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED40ED6A2A0BC3EA005E2732 /* LaunchScreen.storyboard */; };
 		ED40ED7A2A0BC50B005E2732 /* CalculatorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40ED792A0BC50B005E2732 /* CalculatorAppTests.swift */; };
+		ED53F0792A0D2770001C9036 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED53F0782A0D2770001C9036 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		ED40ED6D2A0BC3EA005E2732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED40ED772A0BC50A005E2732 /* CalculatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED40ED792A0BC50B005E2732 /* CalculatorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorAppTests.swift; sourceTree = "<group>"; };
+		ED53F0782A0D2770001C9036 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				ED40ED682A0BC3EA005E2732 /* Assets.xcassets */,
 				ED40ED6A2A0BC3EA005E2732 /* LaunchScreen.storyboard */,
 				ED40ED6D2A0BC3EA005E2732 /* Info.plist */,
+				ED53F0782A0D2770001C9036 /* Calculator.swift */,
 			);
 			path = CalculatorApp;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED40ED642A0BC3E7005E2732 /* ViewController.swift in Sources */,
+				ED53F0792A0D2770001C9036 /* Calculator.swift in Sources */,
 				ED40ED602A0BC3E7005E2732 /* AppDelegate.swift in Sources */,
 				ED40ED622A0BC3E7005E2732 /* SceneDelegate.swift in Sources */,
 			);
